@@ -1,0 +1,43 @@
+/* CSS Document */
+
+.Navigation{
+	list-style: none;
+	list-style-type:none;
+
+}
+.Navigation ul  {
+	list-style-type:none;
+	list-style:none;	 
+	padding: 0px;
+	margin: 0px; 
+}
+.Navigation ul li{
+	margin-right:5px;
+	width:auto;
+ 
+}
+.Navigation ul li a{
+	display:block;
+	width:18px;
+	height:18px; 
+}
+.SubNavigation{
+	width:300px;
+	background-color: #CCC;	
+	width:auto;
+	position:absolute;
+	left:100px;
+	top:0px;
+	border: 2px solid #333;
+	z-index: 9999;
+	margin: 0px;
+	padding: 10px;
+ 
+}
+
+.SubNavigation ul  {
+	list-style-type:none;
+	list-style:none;	 
+	padding: 0px;
+	margin: 0px; 
+}

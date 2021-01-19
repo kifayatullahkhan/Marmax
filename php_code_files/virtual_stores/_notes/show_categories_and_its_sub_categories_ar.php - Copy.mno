@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetvStoreCategories" value="name:VSItemMainCATID;datatype:int,name:VSItemMainCategoryName;datatype:string,name:VSItemMainCategoryName2;datatype:string,name:VSItemMainCategoryShortDescription;datatype:string,name:VSItemMainCategoryShortDescription2;datatype:string,name:DisplayImage;datatype:string,name:VSItemCATID;datatype:int" />
+	<infoitem key="UD_RsGetSubCategories" value="name:VSItemSubCATID;datatype:int,name:VSItemSubCategoryName;datatype:string,name:VSItemSubCategoryName2;datatype:string,name:VSItemSubCategoryShortDescription;datatype:string,name:VSItemSubCategoryShortDescription2;datatype:string,name:DisplayImage;datatype:string,name:VSItemMainCATID;datatype:int" />
+	<infoitem key="UD_Rs_GetGlobalCategories" value="name:VSItemCATID;datatype:int,name:VSItemCategoryName;datatype:string,name:VSItemCategoryName2;datatype:string,name:VSItemCategoryShortDescription;datatype:string,name:VSItemCategoryShortDescription2;datatype:string,name:DisplayImage;datatype:string" />
+</info>

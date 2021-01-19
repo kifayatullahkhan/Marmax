@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetPageContent" value="name:PageID;datatype:int,name:PageName;datatype:string,name:IsDefault;datatype:int,name:PageText;datatype:blob,name:CreatedByUsername;datatype:string,name:CreateDate;datatype:date,name:ModifiedDate;datatype:date" />
+	<infoitem key="UD_Rs_GetDefaultPage" value="name:PageID;datatype:int" />
+</info>

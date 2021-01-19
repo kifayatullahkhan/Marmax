@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetOnlineStoreItemsList" value="name:InvItemID;datatype:int,name:InvItemCode;datatype:string,name:InvItemBarCode;datatype:string,name:InvItemName;datatype:string,name:InvItemDescription;datatype:blob,name:InvItemSalesPrice;datatype:real,name:WHID;datatype:int,name:StockPositionQuantity;datatype:int,name:WarningLevelStockPositionQty;datatype:int,name:InvItemUnitID;datatype:int,name:InvItemTypeID;datatype:int,name:AllowToSelIThisItemOnline;datatype:int,name:ItemImageFileName;datatype:string" />
+	<infoitem key="UD_RsGetItemsGategories" value="name:InvItemTypeID;datatype:int,name:InvItemTypeName;datatype:string,name:InvItemComments;datatype:string" />
+	<infoitem key="UD_RsGetCategoryItems" value="name:InvItemID;datatype:int,name:InvItemCode;datatype:string,name:InvItemBarCode;datatype:string,name:InvItemName;datatype:string,name:InvItemDescription;datatype:blob,name:InvItemSalesPrice;datatype:real,name:WHID;datatype:int,name:StockPositionQuantity;datatype:int,name:WarningLevelStockPositionQty;datatype:int,name:InvItemUnitID;datatype:int,name:InvItemTypeID;datatype:int,name:AllowToSelIThisItemOnline;datatype:int,name:ItemImageFileName;datatype:string" />
+</info>

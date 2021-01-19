@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetUserGroups" value="name:GroupID;datatype:int,name:GroupName;datatype:string" />
+	<infoitem key="UD_Rs_GetAppModules" value="name:App_Module_ID;datatype:int,name:App_Module_Name;datatype:string,name:Comments;datatype:string,name:Allow_Everyone;datatype:int" />
+</info>

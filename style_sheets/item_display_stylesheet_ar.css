@@ -1,0 +1,115 @@
+/* CSS Document */
+/* Items Display List */
+.ItemDisplay{
+	width: 455px;
+	height: 310px;
+	background-color: #959595;
+	margin: 1px 7px 1px 1px;
+	float: right;
+	overflow: hidden;
+}
+.ItemDisplay .ItemDisplayBorder{
+
+}
+.ItemDisplay .ItemImage, .ItemDisplay .ItemImage img{
+	width:455px;
+	height:220px;
+	overflow:hidden;	
+}
+
+.ItemDisplay .ItemImage a{
+	text-decoration:none;
+	border:none;
+	color:#FFF;
+}
+.ItemDisplay .ItemImage a.img{
+
+} 
+.ItemDisplay .ItemImage a:hover img{
+
+} 
+.ItemDisplay .ItemImage a:hover  .ItemDisplayImage{
+	width:455px;
+	height:220px;
+	z-index:-1;
+
+}
+.ItemDisplay .ItemImage a:hover .show_item_hover{
+	background-image:url(../images/show_item_hover_ar.png);
+	width:455px;
+	height:220px;
+	top:-220px;
+	position:relative;
+	
+}
+.ItemDisplay .ItemPopUpDetails{
+	width:455px;
+	height:220px;
+	display:block;
+	position:relative;
+	background-color:#3A3A3A;
+	
+
+}
+.ItemDisplay .ItemPopUpDetails a:hover{
+	z-index:9999;	
+}
+
+.ItemDisplay .ItemDescription{
+	font-size:1em;	
+	height:80px;
+	background-color:#666;
+	background-image:url(../images/bg_zorkif.jpg);
+	background-repeat:repeat;
+	padding:10px;
+	color:#FFF;
+}
+.ItemDisplay  .ItemDescription .Title{
+	color: #F18E0A;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.ItemDisplay  .ItemDescription .PriceTag{
+	/*width: 150px;
+	height: 40px;
+	color: #030303;
+	font-size: 1.3em;
+	font-weight: bold;
+	background: url(../images/price_tag.png);
+	position: relative;
+	top: -275px;
+	right: -10px;
+	text-align:start
+	padding-top: 30px;
+	*/	
+}
+
+.ItemDisplay  .ItemDescription .AddToCartButton{	
+	
+	
+	position:relative;
+	top:-12px;
+		
+	
+	
+	float:left;
+	
+}
+.ItemDisplay  .ItemDescription .AddToCartButton a{
+	width: 151px;
+	_width: 171px;
+	height: 0px;
+	_height: 20px;
+	padding-top:45px;
+	
+	padding-left: 12px;
+	background: url(../images/buttons/add_to_cart.png) 0 0;
+	position: relative;
+	float: left;
+}
+.ItemDisplay  .ItemDescription .AddToCartButton a:hover{
+	background:url(../images/buttons/add_to_cart.png) 0 -48px;
+	color:#FFF;
+}
+

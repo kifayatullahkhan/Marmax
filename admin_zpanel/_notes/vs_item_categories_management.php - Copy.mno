@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetSelectedRecordForEdit" value="name:VSItemCATID;datatype:int,name:VSItemCategoryName;datatype:string,name:VSItemCategoryName2;datatype:string,name:VSItemCategoryShortDescription;datatype:string,name:VSItemCategoryShortDescription2;datatype:string,name:CategoryDisplayImage;datatype:string" />
+	<infoitem key="UD_Rs_GetVSItemCategories" value="name:VSItemCATID;datatype:int,name:VSItemCategoryName;datatype:string,name:VSItemCategoryName2;datatype:string,name:VSItemCategoryShortDescription;datatype:string,name:VSItemCategoryShortDescription2;datatype:string,name:CategoryDisplayImage;datatype:string" />
+</info>

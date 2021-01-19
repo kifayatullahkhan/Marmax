@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_Show_CategoryItems" value="name:VSInvItemID;datatype:int,name:UserID;datatype:int,name:VSInvItemCode;datatype:string,name:VSInvItemName;datatype:string,name:VSInvItemName2;datatype:string,name:VSInvItemShortDescription;datatype:string,name:VSInvItemDescription;datatype:blob,name:VSInvItemShortDescription2;datatype:string,name:VSInvItemDescription2;datatype:blob,name:ActualPrice;datatype:real,name:DescountPercentage;datatype:int,name:VSInvItemSalesPrice;datatype:real,name:VSStockPositionQuantity;datatype:int,name:VSWarningLevelStockPositionQty;datatype:int,name:VSItemCATID;datatype:int,name:VSItemsSubCatID;datatype:int,name:DisplayImage;datatype:string,name:GallaryImage1;datatype:string,name:GallaryImage2;datatype:string,name:GallaryImage3;datatype:string,name:GallaryImage4;datatype:string,name:GallaryImage5;datatype:string,name:GallaryImage6;datatype:string" />
+</info>

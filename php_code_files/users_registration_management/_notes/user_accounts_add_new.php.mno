@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_get_groups" value="name:GroupID;datatype:int,name:GroupName;datatype:string,name:GroupDescription;datatype:string" />
+</info>

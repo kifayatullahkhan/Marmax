@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetCompanyInformation" value="name:CompanyID;datatype:int,name:CompanyName;datatype:string,name:AddressLine1;datatype:string,name:AddressLine2;datatype:string,name:City;datatype:string,name:Country;datatype:string,name:Phone;datatype:string,name:Email;datatype:string,name:WebSite;datatype:string,name:ContactPerson;datatype:string" />
+	<infoitem key="UD_Rs_GetSystemOption" value="name:Sys_Config_ID;datatype:int,name:ShowGalleryLink;datatype:int,name:ShowDownloadLink;datatype:int,name:ShowCompanyInformation;datatype:int" />
+</info>

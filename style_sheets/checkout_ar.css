@@ -1,0 +1,118 @@
+/* CSS For Checkout Pages */
+#cart_order_details{
+	width: 250px;
+	border-width:1px;
+	border-color:#999;
+	border-style:solid;
+	float:right;
+	border-radius:5px;
+	margin-top:5px;
+	
+}
+#cart_order_details ul{
+	list-style:none;
+	width: 250px;	
+}
+#cart_order_details li{
+	list-style:none;
+	background-color:#CCC;
+	border-bottom-width:1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#333;
+	width:100%;	
+}
+#cart_order_details li a{
+	text-decoration:none;
+	color:#000; 
+}
+#cart_order_details li a:hover{
+	color:#FFF;
+	background-color:#999;
+}
+#cart_order_details li:hover{
+	color:#FFF;
+	background-color:#999;
+}
+#checkout_cart_summery{
+	width: 250px; 
+	height:auto;
+	float:right;
+	margin-left:10px;	
+	position:relative;
+	background-color:#FFF;
+
+}
+#checkout_cart_summery h2{
+	height:22px;
+	background-color:#3A3A3A;
+	color:#FFF;
+	padding:10px;
+	
+	font-size:0.9em;
+}
+ .summery_cart_sub_total {
+	height:1.5em;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#CCC;
+
+}
+.summery_cart_shipping {
+	height:1.5em;
+	margin-bottom:10px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#CCC;	
+}
+.summery_cart_total_amount{
+	height:1.5em;
+	margin-bottom:10px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#CCC;
+	
+}
+
+ .text_title{
+	width: 60%; 
+	float:right;
+	padding-right:10px; 
+ }
+ .text_value{
+	width: 30%; 
+	float:right;
+	padding-right:10px; 
+	color:red;
+ }
+.cart_ask_on_phone{
+	margin-bottom:10px;
+	margin-top:10px;
+	padding-right:10px;
+}
+.cart_ask_on_chat{
+	margin-bottom:10px;
+	margin-top:10px;
+	padding-right:10px;
+}
+#checkout_data_entry_sections{
+	width: 693px; 
+	height:auto;
+	float:right;	
+	position:relative;	
+}
+.box_like_section_wrapper{
+	font-size: 20px;
+	margin: 5px;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	border: 1px solid #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	text-align: center;
+}
+

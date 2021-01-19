@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetMyOrders" value="name:CustomerOrderID;datatype:int,name:OrderReferenceNo;datatype:string,name:OrderTimeStamp;datatype:timestamp,name:OrderStatus;datatype:string,name:OrderPaymentTypeID;datatype:int,name:UserID;datatype:int,name:OrderPaymentType;datatype:string" />
+	<infoitem key="UD_RsGetOrderTotalAmount" value="name:TotalAmount;datatype:real" />
+</info>

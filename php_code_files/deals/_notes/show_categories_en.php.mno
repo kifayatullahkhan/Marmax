@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetvStoreCategories" value="name:VSItemCATID;datatype:int,name:VSItemCategoryName;datatype:string,name:VSItemCategoryName2;datatype:string,name:VSItemCategoryShortDescription;datatype:string,name:VSItemCategoryShortDescription2;datatype:string,name:CategoryDisplayImage;datatype:string" />
+	<infoitem key="UD_RsGetSubCategories" value="name:VSItemsSubCatID;datatype:int,name:VSItemsSubCategoryName;datatype:string,name:VSItemsSubCategoryName2;datatype:string,name:VSItemsSubCategoryShortDescription;datatype:string,name:VSItemsSubCategoryShortDescription2;datatype:string,name:VSItemCATID;datatype:int" />
+	<infoitem key="UD_Rs_GetDealsCouponsCategories" value="name:VSCouponsCATID;datatype:int,name:VSCouponsCategoryName;datatype:string,name:VSCouponsCategoryName2;datatype:string,name:VSCouponsCategoryShortDescription;datatype:string,name:VSCouponsCategoryShortDescription2;datatype:string,name:VSCouponsCategoryDisplayImage;datatype:string" />
+</info>

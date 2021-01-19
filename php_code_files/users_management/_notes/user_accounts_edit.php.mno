@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_get_groups" value="name:GroupID;datatype:int,name:GroupName;datatype:string,name:GroupDescription;datatype:string" />
+	<infoitem key="UD_rs_get_user_accounts" value="name:UserID;datatype:int,name:Username;datatype:string,name:Password;datatype:string,name:FullName;datatype:string,name:AddressLine1;datatype:string,name:AddressLine2;datatype:string,name:City;datatype:string,name:Country;datatype:string,name:Phone;datatype:string,name:Email;datatype:string,name:ContactNo;datatype:string,name:Others;datatype:string,name:Picture;datatype:string,name:GroupID;datatype:int,name:AccountStatus;datatype:int,name:LastLoginIP;datatype:string,name:GroupName;datatype:string" />
+	<infoitem key="UD_rs_get_selected_user" value="name:UserID;datatype:int,name:Username;datatype:string,name:Password;datatype:string,name:FullName;datatype:string,name:AddressLine1;datatype:string,name:AddressLine2;datatype:string,name:City;datatype:string,name:Country;datatype:string,name:Phone;datatype:string,name:Email;datatype:string,name:ContactNo;datatype:string,name:Others;datatype:string,name:Picture;datatype:string,name:GroupID;datatype:int,name:AccountStatus;datatype:int,name:LastLoginIP;datatype:string" />
+</info>

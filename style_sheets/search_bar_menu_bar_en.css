@@ -1,0 +1,116 @@
+/* This file Defines the Drop Down Menu and Search Menu */
+
+/* Start of news  */
+#SearchMenuBar {
+	width: 960px;
+	height: 30px;
+	margin-bottom: 0px;
+	padding: 10px;
+	background-color: #A9A9A9;
+	border-color: #7F7F7F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 1.5em;
+	text-align: center;
+}
+/* End of Menu  Bar */
+
+#SearchBox form { 
+	margin:0; 
+	padding:0; 
+	border:none; 	
+}
+#SearchBox input[type=text] {
+		float:left;
+	width:390px;
+	border: 1px solid white;
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	padding: 5px;
+	background: #F3F3F3;
+	margin: 0 0 10px 0;
+	border-color:#fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#SearchBox input[type=text]:focus {
+	width:390px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #56b4ef;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+
+#SearchBox input[type=submit]{
+	float: left;
+	margin-left: 10px;
+	padding: 4px;
+	background-color: #fd9a0f;
+	border-color: #fa2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	padding: 4px 10px;
+	font-size: 0.6em;
+	line-height: 18px;
+	color: #030303;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 5px 5px 0px 0px;
+	border-radius: 0 \0;
+}
+
+#SearchMenuBar .MenuButton{
+	float: right;
+	margin-left: 10px;
+	padding: 4px;
+	background-color: #fd9a0f;
+	border-color: #fa2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	padding: 4px 10px;
+	font-size: 0.6em;
+	line-height: 31px;
+	color: #FA2;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	border: 1px solid #fff;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 5px 5px 0px 0px;
+	border-radius: 0 \0;
+	border: 1px solid #fff;
+	width:135px;
+}
+#SearchMenuBar .MenuButton a{
+	text-decoration:none;
+	color:#000;
+}

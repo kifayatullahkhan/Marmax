@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetCountryNamesList" value="name:CountryID;datatype:int,name:CountryName;datatype:string" />
+	<infoitem key="UD_RsGetCountryNames" value="name:CountryID;datatype:int,name:CountryName;datatype:string" />
+</info>

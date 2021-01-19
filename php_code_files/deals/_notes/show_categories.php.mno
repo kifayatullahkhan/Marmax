@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetvStoreCategories" value="name:VSCouponsCATID;datatype:int,name:VSCouponsCategoryName;datatype:string,name:VSCouponsCategoryName2;datatype:string,name:VSCouponsCategoryShortDescription;datatype:string,name:VSCouponsCategoryShortDescription2;datatype:string,name:VSCouponsCategoryDisplayImage;datatype:string" />
+</info>

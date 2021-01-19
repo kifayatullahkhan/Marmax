@@ -1,0 +1,1 @@
+<?php require_once("php_code_files/users_registration_management/logout.php"); ?>

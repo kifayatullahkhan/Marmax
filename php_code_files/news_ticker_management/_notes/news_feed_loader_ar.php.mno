@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetLatestNews" value="name:NewsID;datatype:int,name:NewsTitle;datatype:string,name:NewsText;datatype:blob,name:Dated;datatype:string,name:Username;datatype:string" />
+</info>

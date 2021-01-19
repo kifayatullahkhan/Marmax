@@ -1,0 +1,129 @@
+/* Dropdown Menu Style Sheet */
+
+#DropDownMenu {
+	display:none;
+	width:960px;
+	height:350px;
+	/*position:absolute; /* Disabling This line will prevent it from auto resize, and you will need to define static size in px. */
+	overflow:hidden; /* This is require if hight is not auto */		
+	margin-bottom:15px;
+	padding:10px;
+	background-color:#fff;
+	border-color:#7F7F7F;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
+	z-index:99980;
+
+
+}
+/* End of Drop Down Menu Wrapper */
+
+/* Start of Formating Global Menu */
+#DropDownMenu .GlobalMenu {
+	float: right;
+	text-align: center;
+	width: 186px;
+	height: 100%;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	border: 1px solid;
+	border-color: #D5D5D5;
+	border-radius: 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	font-weight:100;
+}
+
+#DropDownMenu .GlobalMenu h3 {
+	color: #000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	font-weight:100;
+	background-color: #D5D5D5;
+	border-radius: 0px;
+}
+/* End of Format Main Menu Item */
+ 
+/* Start of Sub Menu */
+#DropDownMenu .GlobalMenuItem {
+	width: auto;
+	height: auto;
+	float: right;
+	overflow: auto;
+	margin-bottom: 0px;
+}
+#DropDownMenu .GlobalMenuItem a{
+	width:100%;
+	text-decoration:none;
+	color:#333;		
+	font-size:12px;
+	margin-right:10px;	
+}
+#DropDownMenu .GlobalMenuItem li{
+	width:186px;
+	text-align:right;	
+}
+#DropDownMenu .GlobalMenuItem li:hover{
+	background-color: #e4e4e4;
+}
+/* End of Formating Global Menu */
+
+
+
+
+/* Format Main Menu Item */
+#DropDownMenu ul {
+	list-style:none;	
+}
+#DropDownMenu .MainMenu {
+	float: right;
+	text-align: center;
+	width: 186px;
+	height: 175px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	border: 1px solid;
+	border-color: #D5D5D5;
+	border-radius: 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	font-weight:100;
+	overflow:hidden;
+}
+#DropDownMenu .MainMenu h3 {
+	color: #000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	font-weight:100;
+	background-color: #D5D5D5;
+	border-radius: 0px;
+}
+/* End of Format Main Menu Item */
+ 
+/* Start of Sub Menu */
+#DropDownMenu .SubMenus {
+	width: auto;
+	height: auto;
+	float: none;
+	overflow: auto;
+	margin-bottom: 0px;
+}
+#DropDownMenu .SubMenus a{
+	width:100%;
+	text-decoration:none;
+	color:#333;		
+	font-size:12px;
+	margin-right:10px;	
+}
+#DropDownMenu .SubMenus li{
+	width:186px;
+	text-align:right;
+	
+}
+#DropDownMenu .SubMenus li:hover{
+	background-color: #e4e4e4;
+}
+/* End of Sub Menu */

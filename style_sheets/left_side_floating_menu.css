@@ -1,0 +1,11 @@
+/* Left Side Floating Menu */
+#left_side_floating_menu {
+	width:50px;
+	height:100px;
+	background-color:#F00;
+	position:fixed;
+	top:10%;
+	left:10%;
+	
+}
+

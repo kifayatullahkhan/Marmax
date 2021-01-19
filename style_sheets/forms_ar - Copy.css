@@ -1,0 +1,357 @@
+/*
+Company Name: Zorkif Technology Center
+Web Site: http://www.zorkif.com
+File: Kifayat Forms CSS
+Author: Kifayat Ullah
+Author URI: http://www.zorkif.com
+Licence: Free to Use if you want
+*/
+#sign_up_form fieldset, #sign_up_form legend, #sign_in_form form legend{
+	  margin:0; 
+	  padding:0; 
+	  border:none;
+}
+#sign_up_form form, #sign_in_form form { 
+    padding:10px;
+	position:relative;
+	direction:rtl;
+}
+#sign_up_form  fieldset,#sign_in_form fieldset {
+	  padding: 1.5em;
+	  border-style:solid; 
+	  border-width:1px;
+	  border-color:#699700;	
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+  }
+#sign_up_form  legend,#sign_in_form  legend {
+	  width:250px; 
+	  border-style:solid; 
+	  border-width:1px;
+	  border-color:#699700;	
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px; 
+	  position:relative;
+	  top:10px;
+	  right:20px;
+	  background-color:#94D200;
+	  padding-right:10px;
+	  font-size:1em;
+	  color:#FFF;
+	  text-transform:uppercase;
+	  margin-right:10px;
+}
+#sign_up_form label, #sign_in_form  label{
+	  float:right;   
+	  margin-right:0.5em;
+	  padding-top:0.2em;
+	  text-align:right;
+	  font-weight:bold;
+}
+
+ /* First Effect on Text Elements */
+#sign_up_form label input[type=text],
+#sign_up_form label input[type=password],
+#sign_up_form label input[type=url],
+#sign_up_form label input[type=tel],
+#sign_up_form label input[type=number],
+#sign_up_form label input[type=color],
+#sign_up_form label input[type=email],
+#sign_in_form label input[type=text],
+#sign_in_form label input[type=password],
+#sign_in_form label input[type=url],
+#sign_in_form label input[type=tel],
+#sign_in_form label input[type=number],
+#sign_in_form label input[type=color],
+#sign_in_form label input[type=email],
+.form_text_fields {
+	border: 1px solid white;
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+	border-color:#699700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	 display:block;clear:both;
+	}
+  
+
+ /* Form Inputs Hover Effect */
+.backgound-gradiant:focus,
+#sign_up_form input[type=text]:focus,
+#sign_up_form input[type=password]:focus,
+#sign_up_form input[type=url]:focus,
+#sign_up_form input[type=tel]:focus,
+#sign_up_form input[type=number]:focus,
+#sign_up_form input[type=color]:focus,
+#sign_up_form input[type=email]:focus,
+#sign_up_form input[type=submit]:focus,
+#sign_up_form legend:focus,
+#sign_in_form input[type=text]:focus,
+#sign_in_form input[type=password]:focus,
+#sign_in_form input[type=url]:focus,
+#sign_in_form input[type=tel]:focus,
+#sign_in_form input[type=number]:focus,
+#sign_in_form input[type=color]:focus,
+#sign_in_form input[type=email]:focus,
+#sign_in_form input[type=submit]:focus,
+#sign_in_form legend:focus,
+
+.form_text_fields:focus {
+	border-width:1px;
+	border-style:solid;
+	border-color:#060;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	border:1px solid #56b4ef;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+
+/* End of Form Inputs Hover Effect */
+.background-glow{
+	color:#777;
+	text-shadow:0 1px 0 rgba(255,255,255,.75);
+	cursor:default;
+	background-image:none;
+	filter:alpha(opacity=65);
+	-moz-opacity:.65;opacity:.65;	
+}
+#sign_up_form input[type=submit], #sign_in_form input[type=submit]{
+	 margin-top:17px; 
+	 padding:5px;	  
+	 background-color:#fd9a0f;
+	 background-repeat:repeat-x;
+	 background-image:-moz-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+	 background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fee94f),color-stop(100%,#fd9a0f));
+	 background-image:-webkit-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+	 background-image:-ms-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+	 background-image:-o-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+	 background-image:linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+	 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fee94f',endColorstr='#fd9a0f',GradientType=0);
+	 border-color:#fa2;
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;  
+	 position:relative;
+	 display:inline-block;
+	 overflow:visible;
+	 padding:5px 10px;
+	 font-size:13px;
+	 font-weight:bold;
+	 line-height:18px;
+	 color:#333;
+	 text-shadow:0 1px 0 rgba(255,255,255,.5);
+	 background-color:#ccc;
+	 background-repeat:no-repeat;
+	 border:1px solid #ccc;
+	 cursor:pointer;
+	 -webkit-border-radius:4px;
+	 -moz-border-radius:4px;
+	 border-radius:4px;
+	 border-radius:0 \0;
+	 -webkit-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	 -moz-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	 box-shadow:0 1px 0 rgba(255,255,255,.5);
+ }
+.button_misbah {
+		margin-top:17px; 
+		padding:5px;	  
+		background-color:#fd9a0f;
+		background-repeat:repeat-x;
+		background-image:-moz-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+		background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fee94f),color-stop(100%,#fd9a0f));
+		background-image:-webkit-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+		background-image:-ms-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+		background-image:-o-linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+		background-image:linear-gradient(top,#fee94f 0,#fd9a0f 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fee94f',endColorstr='#fd9a0f',GradientType=0);
+		border-color:#fa2;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;  	 
+		position:relative;
+		display:inline-block;
+		overflow:visible;
+		padding:5px 10px;
+		font-size:13px;
+		font-weight:bold;
+		line-height:18px;
+		color:#333;
+		text-shadow:0 1px 0 rgba(255,255,255,.5);
+		background-color:#ccc;
+		background-repeat:no-repeat;
+		border:1px solid #ccc;
+		cursor:pointer;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		border-radius:0 \0;
+		-webkit-box-shadow:0 1px 0 rgba(255,255,255,.5);
+		-moz-box-shadow:0 1px 0 rgba(255,255,255,.5);
+		box-shadow:0 1px 0 rgba(255,255,255,.5); 	
+		border:1px solid #ccc;
+		-webkit-box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+		-moz-box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+		box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+}
+.button_misbah:hover {
+	border:1px solid #56b4ef;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6); 
+ }
+.shopping_cart_form  input{
+	clear:both;
+	margin:0px; 
+	display:inline
+}
+
+/* Start of Custom Form Designing */  
+.DataEntryForm {
+	
+	
+}
+.DataEntryForm input[type=text],
+.DataEntryForm input[type=password],
+.DataEntryForm input[type=url],
+.DataEntryForm input[type=tel],
+.DataEntryForm input[type=number],
+.DataEntryForm input[type=color],
+.DataEntryForm input[type=email],
+.form_text_fields{
+	width:93%;
+	padding:10px;	
+	border: 1px solid white;
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+	border-color:#699700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display:block;
+	clear:both;		
+}
+.DataEntryForm  textarea{
+	width:98%;
+	padding:10px;	
+		border: 1px solid white;
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+	border-color:#699700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	 display:block;clear:both;
+}
+.DataEntryForm  textarea:focus{
+	border-width:1px;
+	border-style:solid;
+	border-color:#060;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	border:1px solid #56b4ef;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 16px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 16px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 16px rgba(82,168,236,.6);
+}
+
+.DataEntryForm  select{
+	width:93%;
+	_width:70%;	
+		border: 1px solid white;
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	-moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	margin: 0 0 10px 0;
+	border-color:#699700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+.DetailView {
+	
+	
+}
+
+.header_row{
+	background-color:#333;
+	color:#FFF;
+	font-size:0.9em;
+	
+}
+.header_row td{
+	background-color:#333;
+	color:#FFF;
+	font-size:0.8em;
+	direction:ltr;
+}
+.data_row_odd{
+	background-color:#F2F2F2;
+	color:#333;
+	font-size:0.8em;
+}
+.data_row_even{
+	background-color:#E6E6E6;
+	color:#333;
+	font-size:0.8em;
+}
+
+/* Check out Sign Up and Sign In Form */
+
+.NewMemberLoginForm, .ExistingMemberLoginForm{
+	width:465px;
+}
+
+.NewMemberLoginForm{ 
+	float:left;
+}
+.ExistingMemberLoginForm {
+	float:right;
+}
+

@@ -1,0 +1,78 @@
+/* Items Display List */
+.Item_Category_Display{
+	width:80px;
+	height:80px;
+	background-color:#E6E6E6;
+	margin:5px;
+	float:left;
+	overflow:hidden;
+}
+.Item_Category_Display .Item_Category_DisplayBorder{
+	background-color:#FFF;
+	height:98%;
+	width:98%;
+
+}
+.Item_Category_Display .Item_CategoryImage{
+	width:80px;
+	height:80px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.Item_Category_Display .Item_CategoryImage a{
+	text-decoration:none;
+	border:none;
+	color:#FFF;
+}
+.Item_Category_Display .Item_CategoryImage a.img{
+	position:relative;
+	width:80px;
+	height:80px;
+	text-decoration:none;
+	border:none;
+} 
+.Item_Category_Display .Item_CategoryImage a:hover img{
+	display:none;
+
+} 
+.Item_Category_Display .Item_CategoryPopUpDetails{
+	width:80px;
+	height:80px;
+	display:block;
+	position:relative;
+	background-color:#CCC;
+	padding:5px;
+
+}
+.Item_Category_Display .Item_CategoryPopUpDetails a:hover{
+	z-index:9999;	
+}
+
+
+/* ------ Start of Sub Category Items Display Css ------------ */
+
+.Item_Sub_Category_Display {
+	float:right;
+	width:auto;
+	margin:5px;
+	font-weight:bold;
+
+}
+.Item_Sub_Category_Display a {
+	text-decoration:none;
+	color:#333;
+}
+.Item_Sub_Category_Display a:hover {
+	text-decoration:none;
+	color:#000;
+}
+.dot{
+	width:22px;
+	height:22px;
+	background-image:url(../images/categories/dot.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+}

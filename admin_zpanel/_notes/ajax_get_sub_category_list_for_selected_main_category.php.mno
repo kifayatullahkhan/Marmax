@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetMainCategoryList" value="name:VSItemSubCATID;datatype:int,name:VSItemSubCategoryName;datatype:string,name:VSItemSubCategoryName2;datatype:string,name:VSItemSubCategoryShortDescription;datatype:string,name:VSItemSubCategoryShortDescription2;datatype:string,name:DisplayImage;datatype:string,name:VSItemMainCATID;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetCartDetails" value="name:VSInvItemID;datatype:int,name:UserID;datatype:int,name:VSInvItemCode;datatype:string,name:VSInvItemName;datatype:string,name:VSInvItemName2;datatype:string,name:VSInvItemShortDescription;datatype:string,name:VSInvItemDescription;datatype:blob,name:VSInvItemShortDescription2;datatype:string,name:VSInvItemDescription2;datatype:blob,name:VSInvItemSalesPrice;datatype:real,name:VSStockPositionQuantity;datatype:int,name:VSWarningLevelStockPositionQty;datatype:int,name:ItemImageFileName;datatype:string,name:VSItemCATID;datatype:int,name:VSItemsSubCatID;datatype:int" />
+</info>

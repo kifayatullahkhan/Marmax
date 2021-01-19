@@ -1,0 +1,42 @@
+Sandbox Developer Tools
+-----------------------------------------
+Business Account Details
+=========================
+kstore_1349034185_biz@yahoo.com
+Password: zorkif_123
+Business 	Verified
+
+Country: 	  	United States
+Business Name: 	  	KStore Online's Test Store
+Credit Card: 	  	Visa   4685281793569112
+Exp Date:  		9/2017
+Bank Account: 	  	Checking (Confirmed)
+Routing Number: 		325272063
+Bank Account Number:	 832062641774582
+Balance: 	  		8888.00 USD
+Email: 	  		Confirmed
+Notes: 	  	
+Date Created: 	  	Sep 30, 2012 12:43:58 PDT 
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+Buyers Paypal Account
+===================================
+kbuyme_1349034449_per@yahoo.com
+Password: zorkif_123
+
+Country: 	  	United States
+Business Name: 	  	None
+Credit Card: 	  	Visa   4422356812797916
+Exp Date:  		9/2017
+Bank Account: 	  	Checking (Confirmed)
+Routing Number: 		325272063
+Bank Account Number:	 251378413946676
+Balance: 	  		7777.00 USD
+Email: 	  		Confirmed
+Notes: 	  		The Buyers Test Account
+Date Created: 	  	Sep 30, 2012 12:47:45 PDT 

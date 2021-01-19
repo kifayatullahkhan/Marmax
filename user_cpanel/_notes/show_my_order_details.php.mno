@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetItemName" value="name:VSInvItemName;datatype:string,name:VSInvItemName2;datatype:string" />
+	<infoitem key="UD_RsGetOrderDetails" value="name:CODID;datatype:int,name:CustomerOrderID;datatype:int,name:Quantity;datatype:int,name:UnitSalesPrice;datatype:real,name:ItemCode;datatype:string,name:ItemCartType;datatype:string,name:CustomerOrderID;datatype:int,name:TotalItemAmount;datatype:real" />
+</info>

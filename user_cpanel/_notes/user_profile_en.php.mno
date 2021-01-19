@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_getuserprofile" value="name:Username;datatype:string,name:FullName;datatype:string,name:AddressLine1;datatype:string,name:AddressLine2;datatype:string,name:City;datatype:string,name:Country;datatype:string,name:Phone;datatype:string,name:Email;datatype:string,name:ContactNo;datatype:string,name:Others;datatype:string,name:Picture;datatype:string" />
+</info>
